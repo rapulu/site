@@ -15,6 +15,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: rapulu
         key: ${{ secrets.SITE_SECRET }}
+        port: 22
         script: |
           cd website
           git pull origin master
