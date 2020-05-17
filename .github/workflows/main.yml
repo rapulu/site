@@ -20,3 +20,4 @@ jobs:
           cd ~/website
           git pull origin master
           git status
+          hugo
