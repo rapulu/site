@@ -17,6 +17,6 @@ jobs:
         key: ${{ secrets.SITE_SECRET }}
         port: 22
         script: |
-          cd website
+          cd ~/website
           git pull origin master
           git status
