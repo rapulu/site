@@ -1,0 +1,21 @@
+name: Deployment Flow
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: testing blog server continuous deployment
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: rapulu
+        key: ${{ secrets.SITE_SECRET }}
+        script: |
+          cd website
+          git pull origin master
+          git status
