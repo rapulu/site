@@ -13,7 +13,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
-        username: rapulu
+        username: paul
         key: ${{ secrets.SITE_SECRET }}
         port: 22
         script: |
