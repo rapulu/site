@@ -1,26 +1,14 @@
-{{ if not .Site.Params.hideFooter | default false }}
-  <footer class="footer">
-    <section class="container">
-      {{ with .Site.Params.footercontent | safeHTML }}
-        <p>{{ . }}</p>
-      {{ end }}
-      {{ if not .Site.Params.hideCopyright }}
-        ©
-        {{ if (and (.Site.Params.since) (lt .Site.Params.since now.Year)) }}
-          {{ .Site.Params.since }} -
-        {{ end }}
-        {{ now.Year }}
-        {{ with .Site.Params.Author }} {{ . }} {{ end }}
-      {{ end }}
-      {{ if not .Site.Params.hideCredits }}
-        {{ if not .Site.Params.hideCopyright }} · {{ end }}
-        {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      {{ end }}
-      {{ if .Site.Params.commit }}
-        {{ if .GitInfo }}
-          [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
-        {{ end }}
-      {{ end }}
-    </section>
-  </footer>
-{{ end }}
+<footer>
+  <div>
+    &copy; {{ $.Site.Params.Copyright }} {{ now.Format "2006"}}
+    ·
+    {{ with $.Site.Params.License }}
+    <a href="{{ $.Site.Params.licenseURL }}"
+       target="_blank">{{ . | safeHTML }}</a>
+    {{end}}
+    {{ with $.Site.Params.BuiltWith }}
+    ·
+    Build with <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://themes.gohugo.io/soho/" target="_blank">Soho</a> theme
+    {{end}}
+  </div>
+</footer>

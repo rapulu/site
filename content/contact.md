@@ -1,6 +1,6 @@
 +++
 title = "Contact"
-slug = "contact"
+date = "2020-02-01"
 +++
 
-Follow me, @johndoe.
+Get in contact with us!
