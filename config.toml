@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "Rapulu"
-
+disableKinds = ["taxonomy", "taxonomyTerm", "home", "section", "page"]
 theme = "hugo-coder"
 
 languagecode = "en"
