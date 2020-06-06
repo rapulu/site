@@ -46,7 +46,7 @@ or
 
 Example:
 
-```sudo apt-get install -y php7.4-{bcmath,intl,mbstring,mysql,zip}```
+```sudo apt-get install -y php7.4-{mbstring,mysql,bcmath,bz2,intl,gd,zip}```
 
 
 ## Install PHP 7.4 on Ubuntu 20.04
