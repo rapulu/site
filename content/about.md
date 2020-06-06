@@ -1,9 +1,10 @@
 +++
 title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
+description = "About me"
 date = "2019-02-28"
-aliases = ["about-us","about-hugo"]
-author = "Hugo Authors"
+aliases = ["about-me"]
+author = "Paul Rapuluchukwu"
+draft = false
 +++
 
 I'm Paul Rapuluchukwu, I write backend code that adds functionality to everything a front-end engineer creates.
