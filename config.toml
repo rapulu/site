@@ -15,8 +15,8 @@ description = "Backend & Devops"
 profilePicture = "images/paul.jpg"
 
 copyright = "Paul Rapuluchukwu"
-license = "CC BY-SA 4.0"
-licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+#license = "CC BY-SA 4.0"
+#licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 
 ## Set custom theme color.
 # themeColor = "#fc2803"
