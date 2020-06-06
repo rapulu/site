@@ -5,6 +5,7 @@ description = "About Soho Theme."
 tags = [
     "theme",
 ]
+draft = true
 +++
 
 [Soho](https://github.com/alexandrevicenzi/soho) is a minimalist two-column [hugo](https://gohugo.io) theme based on [Hyde](https://github.com/spf13/hyde) and inspired by the success of [Flex](https://github.com/alexandrevicenzi/Flex).
