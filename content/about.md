@@ -15,7 +15,6 @@ I currently work at Treehill tech solutions as a Backend Engineer, where I build
 
 My mostly used languages are Laravel/PHP, Vuejs/Javascript, and Golang, although I only recently started using Golang I have built few personal tools with it.
 
-I also create time to mentor people on [Hng Internship](https://hng.tech/), where I help train the next generation of developers and tech experts, also a member of several developer communities like [ForLoop Africa](https://forloop.africa/), [Laravel Nigeria](https://www.laravelnigeria.com/), [Gophers Nigeria](https://twitter.com/golangnigeria).
+I also create time to mentor people on [Hng Internship](https://hng.tech/), a remote internship that helps train the next generation of developers and tech experts.
 
-
-
+I'm also a member of several developer communities like [ForLoop Africa](https://forloop.africa/), [Laravel Nigeria](https://www.laravelnigeria.com/), [Gophers Nigeria](https://twitter.com/golangnigeria).
