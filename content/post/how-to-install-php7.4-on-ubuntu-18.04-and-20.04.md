@@ -1,10 +1,11 @@
 ---
 title: "How to Install Php7.4 on Ubuntu 18.04 and 20.04"
 date: 2020-06-06T14:31:12+01:00
+tags: ["ubuntu", "php"]
 draft: false
 ---
 
-PHP is a popular server scripting language known for creating dynamic and interactive Web pages. PHP is widely-used programming language in the Web. Use the steps below to install PHP 7.4 on Ubuntu 20.04/19.04/18.04/16.04.
+PHP is a popular server scripting language used for creating dynamic and interactive Web pages. PHP is widely-used programming language in the Web. Use the steps below to install PHP 7.4 on Ubuntu 20.04, 19.04, 18.04 and 16.04.
 
 ## Install PHP 7.4 on Ubuntu 18.04
 
