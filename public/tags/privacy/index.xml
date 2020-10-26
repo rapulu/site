@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on Paul Rapulu</title>
+    <link>/tags/privacy/</link>
+    <description>Recent content in privacy on Paul Rapulu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hidden Page</title>
+      <link>/post/hidden-page/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hidden-page/</guid>
+      <description>This page is hidden and should not be visible without knowing the URL.</description>
+    </item>
+    
+  </channel>
+</rss>
